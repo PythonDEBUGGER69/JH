@@ -1,0 +1,11 @@
+input.onButtonPressed(Button.A, function () {
+    bitbot.goms(BBDirection.Forward, 68, 1750)
+    bitbot.rotatems(BBRobotDirection.Right, 80, 300)
+    bitbot.goms(BBDirection.Forward, 68, 1700)
+    bitbot.rotatems(BBRobotDirection.Right, 60, 200)
+    bitbot.goms(BBDirection.Forward, 60, 500)
+    bitbot.rotatems(BBRobotDirection.Left, 60, 150)
+    bitbot.goms(BBDirection.Forward, 60, 400)
+    bitbot.rotatems(BBRobotDirection.Right, 60, 300)
+})
+basic.showIcon(IconNames.Ghost)
