@@ -5,7 +5,7 @@ input.onButtonPressed(Button.A, function () {
     bitbot.rotatems(BBRobotDirection.Right, 60, 200)
     bitbot.goms(BBDirection.Forward, 60, 500)
     bitbot.rotatems(BBRobotDirection.Left, 60, 150)
-    bitbot.goms(BBDirection.Forward, 60, 400)
+    bitbot.goms(BBDirection.Forward, 80, 800)
     bitbot.rotatems(BBRobotDirection.Right, 60, 300)
 })
 basic.showIcon(IconNames.Ghost)
